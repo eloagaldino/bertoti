@@ -9,3 +9,23 @@ do tempo. Essa engenharia possui ferramentas e recursos para construir sistemas 
 Trade-Off
 - Os trade-off´s são requisitos não funcionais que garantem a funcionabilidade dos códigos ao longo dos anos com uma condição de ganha-perde, gerando equilíbrio
 entre duas qualidades conflitantes.
+
+ ---- Recursos não-funcionais -----
+Escalabilidade - A escalabilidade é a qualidade que faz com que o software aguente grandes quantidades de requisições sem afetar a sua eficiência e rapidez, o sistema passa a ter autonomia para expandir ou retirar recursos conforme o número de demandas aumenta ou diminui. Agilidade - A agilidade de um software se refere a facilidade do sistema em se adaptar a mudanças, mantendo-o estável sem comprometer a sua velocidade, um software ágil possuí uma estrutura flexível, que permite redefinir as prioridades e corrigir erros sem desestabilizar o produto         
+Segurança - A segurança se refere a como o software irá proteger os dados de seus usuários, softwares programados com esse requisito focam em proteção, confidencialidade e conformidade, um exemplo de software programado dessa formas são os aplicativos de bancos
+Robustez - A robustez garante que o software irá conseguir lidar com situações imprevistas sem travar ou corromper dados, ele lida com o inesperado e anormal, como entradas inválidas.
+Recuperabilidade - a recuperabilidade é a capacidade de um software se recuperar de falhas, erros ou interrupções, retornando rapidamente ao seu funcionamento normal e garantindo a integridade dos dados, focando sempre na velocidade e eficiência do sistema ao lidar com falhas.
+Desempenho - O desempenho define como o software opera, focando em velocidade, eficiência e escalabilidade, e não nas funcionalidades em si, garantindo que o sistema responda rapidamente e suporte a carga de trabalho, influenciando diretamente a experiência do usuário.
+
+----- Trade-Off exemplos -----
+- Parefomance X Custo
+Um sistema mais rápido e potente faz com que seu custo aumente com
+manutenção, licenças e equipe especializada.
+ex: sistema bancário
+- Qualidade vs Tempo de entrega
+Quanto mais rápido um sistema é entregue, se tem menos tempo para testes
+validações e aperfeiçoamento.
+- Escalabilidade vs consistência
+para suportar muitos usuários as mesmo tempo, o sistema precisa destribuir o
+banco de dados em vários servidores, causando atraso na atualização e
+sincronização.
